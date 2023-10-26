@@ -1,0 +1,274 @@
+@media (min-width: 992px) {
+  #award {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    margin-left: 3%;
+    margin-right: 2%;
+    padding: 30px 24px;
+    width: 95%;
+  }
+  .award-child {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .award-child h1 {
+    margin-top: 10px;
+  }
+  .award-child h4 {
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 130%;
+    text-align: start;
+    color: rgb(44, 30, 61);
+    text-decoration: none;
+    text-transform: none;
+  }
+  .award-child p {
+    margin-top: 10px;
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 150%;
+    text-align: start;
+    color: rgb(83, 73, 96);
+    text-decoration: none;
+    text-transform: none;
+  }
+  .iconWrapper {
+    display: table;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(245, 239, 249);
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .iconWrapper i {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(128, 57, 218);
+    font-size: inherit;
+  }
+  #games {
+    padding: 30px 24px;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  #games > div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+  }
+  #games > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #games h4 {
+    margin-top: 10px;
+    color: rgb(44, 30, 61);
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 15px;
+  }
+  .games-child {
+    margin: 20px;
+  }
+  .games-img {
+    width: 100%;
+  }
+  #game-title {
+    margin-left: 4%;
+    width: 60%;
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 105%;
+    text-align: start;
+    color: #2c1e3d;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .contact-us-child {
+    margin: auto;
+    padding: 24px 24px;
+    gap: 15px;
+    text-align: center;
+  }
+  .contact-us-child a p {
+    border: 2px solid white;
+    width: 20%;
+    padding: 10px;
+    margin: 20px auto;
+    color: white;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 180px;
+    margin-top: 80px;
+    width: 80%;
+  }
+  .main-container h1 {
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 100%;
+    text-align: start;
+    color: rgb(44, 30, 61);
+    text-decoration: none;
+    text-transform: none;
+  }
+  .main-container p {
+    color: rgb(83, 73, 96);
+    width: 80%;
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 150%;
+    text-align: start;
+    color: #534960;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .main-container h1 {
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 100%;
+    text-align: start;
+    color: rgb(44, 30, 61);
+    text-decoration: none;
+    text-transform: none;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .main-container p {
+    color: rgb(83, 73, 96);
+  }
+  .main-container a p {
+    padding: 10px 20px;
+    border: 2px solid rgb(128, 57, 218);
+    margin-top: 20px;
+    height: auto;
+    font-size: 12px;
+  }
+  .main-container-child {
+    width: 100%;
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+  }
+  .testimonial-child-container {
+    gap: 100px;
+    width: 90%;
+    margin-left: 7%;
+  }
+  .testimonial-child-container h3 {
+    display: flex;
+    width: 90%;
+  }
+  .testimonial-child {
+    background: rgb(245, 239, 249);
+  }
+  #contact-us {
+    gap: 20px;
+  }
+  .contact-us-child h2 {
+    margin-top: 10px;
+    font-size: 45px;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    background: #2C1E3D;
+    width: 100%;
+    gap: 20%;
+  }
+}
+@media (min-width: 1400px) {
+  .main-container {
+    display: flex;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 180px;
+    margin-top: 80px;
+    width: 80%;
+  }
+  .main-container h1 {
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 100%;
+    text-align: start;
+    color: rgb(44, 30, 61);
+    text-decoration: none;
+    text-transform: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .main-container p {
+    color: rgb(83, 73, 96);
+    width: 90%;
+  }
+  .main-container img {
+    width: 100%;
+  }
+  .main-container a p {
+    padding: 10px 20px;
+    border: 2px solid rgb(128, 57, 218);
+    margin-top: 20px;
+    height: auto;
+    font-size: 12px;
+  }
+  .main-container-child {
+    width: 50%;
+    font-family: "Karla", "Karla Placeholder", sans-serif;
+  }
+  .testimonial-child-container {
+    display: flex;
+    gap: 100px;
+    width: 85%;
+    margin-left: 7%;
+  }
+  .testimonial-child-container h3 {
+    display: flex;
+    width: 70%;
+  }
+  .testimonial-child {
+    background: rgb(245, 239, 249);
+  }
+  #contact-us {
+    gap: 20px;
+  }
+  .contact-us-child h2 {
+    margin-top: 10px;
+    font-size: 45px;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    background: #2C1E3D;
+    width: 100%;
+    gap: 20%;
+  }
+}/*# sourceMappingURL=desktop.css.map */
